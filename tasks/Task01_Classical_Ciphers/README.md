@@ -51,14 +51,17 @@ Each file contains:
 ## Example Outputs
 
 **Caesar Cipher**
+```
 Message: HELLO
 Key: 3
 Encrypted: KHOOR
 Decrypted: HELLO
-
+```
 
 **Affine Cipher**
+```
 Message: HELLO
 Keys: a = 5, b = 8
 Encrypted: RCLLA
 Decrypted: HELLO
+```
