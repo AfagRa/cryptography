@@ -22,8 +22,6 @@ Both ciphers work on uppercase letters, preserve non-alphabet characters, and us
 Encryption: C = (P + key) mod 26
 Decryption: P = (C - key) mod 26
 
-markdown
-Copy code
 
 ### Affine Cipher
 - Encrypts and decrypts using two keys: a (multiplicative) and b (additive).
@@ -35,8 +33,6 @@ Copy code
 Encryption: C = (a * P + b) mod 26
 Decryption: P = inverse(a) * (C - b) mod 26
 
-yaml
-Copy code
 where inverse(a) is modular inverse of a modulo 26.
 
 ---
